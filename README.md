@@ -49,17 +49,17 @@ CartPole-v1 환경은 이름 그대로 어떤 Cart에 Pole이 연결되어 있�
         
  ## Result 
  
- <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/Comparing_result.png"  width="40%">
+ <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/Comparing_result.png"  width="60%">
  
  
  ## DQN 
- <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DQN.png"  width="40%">
+ <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DQN.png"  width="60%">
  
  ### DDQN
-  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN.png"  width="40%">
+  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN.png"  width="60%">
  
  ### DDQN with Dueling network 
-  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN_Dueling_network.png"  width="40%">
+  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN_Dueling_network.png"  width="60%">
  
  
  
