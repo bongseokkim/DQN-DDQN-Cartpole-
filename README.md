@@ -1,6 +1,5 @@
 ## Catpole 환경에서 DQN 및 DDQN, Dueling network 적용 
-
-
++ source code -  ipynb (colab) 
 
 ### Cartpole 환경 설명 
 
@@ -48,18 +47,29 @@ CartPole-v1 환경은 이름 그대로 어떤 Cart에 Pole이 연결되어 있�
         195.0 over 100 consecutive trials.
         
  ## Result 
- 
- <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/Comparing_result.png"  width="60%">
+알고리즘 별 비교 시각화¶
+일반적인 DQN에 비해서 다른 알고리즘들을 적용했을 때, 드라마틱 하게 달라지는 결과는 관찰되지 못했습니다. 이유는 카트폴 환경이 action이 2가지 밖에 없는 비교적 단순한 환경이기 때문일 것이라 생각됩니다.
+
+모델의 실질적인 성능의 비교는 무의미 할 정도로 비슷합니다.\ 세가지 알고리즘 모두 성능이 우수한 것을 확인할 수 있고 다만 관찰되는 알고리즘 별 특징은 다음과 같습니다.
+
++ DQN은 우선 편차가 매우 심합니다. 주황색 선을 보면 급격하게 낮아졌다가 높아지는 구간을 많이 관찰할 수 있습니다.
++ 이에 비해 DDQN은 편차의 폭이 조금 줄은 것을 확인 할 수 있습니다.
++ DDQN-Dueling network은 대체로 큰 편차 없이 서서히 우 상향하는 그림을 보여줍니다.
+
+Cartpole v0 환경기준 195점을 세 알고리즘 모두 다 episode 초반부에서 모두 넘어 버렸습니다(max 200) 그렇기 때문에 Cartpole v1 환경을 다시 돌렸습니다(동일한 환경이지만 max 500까지 갈수 있습니다). Cartpole v1 기준의 max값인 500을 DDQN-Dueling network, DQN는 도달한 결과를 관찰 할 수 있습니다.
+
+
+ <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/Comparing_result.png"  width="50%">
  
  
  ## DQN 
- <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DQN.png"  width="60%">
+ <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DQN.png"  width="50%">
  
  ### DDQN
-  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN.png"  width="60%">
+  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN.png"  width="50%">
  
  ### DDQN with Dueling network 
-  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN_Dueling_network.png"  width="60%">
+  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN_Dueling_network.png"  width="50%">
  
  
  
