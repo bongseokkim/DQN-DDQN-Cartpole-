@@ -46,3 +46,20 @@ CartPole-v1 환경은 이름 그대로 어떤 Cart에 Pole이 연결되어 있�
         Solved Requirements:
         Considered solved when the average return is greater than or equal to
         195.0 over 100 consecutive trials.
+        
+ ## Result 
+ 
+ <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/Comparing_result.png"  width="40%">
+ 
+ 
+ ## DQN 
+ <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DQN.png"  width="40%">
+ 
+ ### DDQN
+  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN.png"  width="40%">
+ 
+ ### DDQN with Dueling network 
+  <img src="https://github.com/bongseokkim/DQN-DDQN-Cartpole-/blob/main/image/DDQN_Dueling_network.png"  width="40%">
+ 
+ 
+ 
